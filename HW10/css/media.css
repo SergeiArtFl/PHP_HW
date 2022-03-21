@@ -1,0 +1,257 @@
+@media (max-width: 1024px){
+    .form,
+    .form input,
+    .form textarea{
+        font-size: 16px;
+    }
+    .form input{
+        width: 40%;
+    }
+    .services .container .services__list .services__info p{
+        font-size: 12px;
+    }
+    .info_flex li {
+        font-size: 14px;
+    }
+  
+}
+@media (max-width: 950px){
+      .info_flex{
+        flex-direction: column;
+    }
+    .m25{
+        margin: 15px 0;
+    }
+    .icon_social li:not(:last-child){
+        margin-right: 2px;
+    }
+    .footer_social{
+        align-items: start;
+    }
+    .icon_social .background_ico{
+      background-size: 70%;
+      background-repeat: no-repeat;
+    }
+    .icon_social .ico_tw{
+      background-size: 70%;
+      background-repeat: no-repeat;
+      top: 9px;
+      left: 9px;
+    }
+    .icon_social .ico_f{
+      background-size: 70%;
+      background-repeat: no-repeat;
+      top: 8px;
+      left: 11px;
+    }
+    .icon_social .ico_p{
+       background-size: 70%;
+       background-repeat: no-repeat;
+       top: 7px;
+       left: 10px;
+    }
+    .icon_social .ico_g{
+       background-size: 70%;
+       background-repeat: no-repeat;
+       top: 9px;
+       left: 9px;
+    }
+}
+@media (max-width: 880px){
+
+    .preview{
+        width: 40%;
+    }
+    .nav li:not(:last-child){
+        padding-right: 15px;
+    }
+    .promo__content h2{
+        font-size: 40px;
+    }
+    .promo__content p{
+        font-size: 16px;
+    }
+    .services .container .services__head h2{
+        font-size: 30px;
+    }
+    .services .container .services__head p{
+        font-size: 16px;
+    }
+    .services .container .services__list .services__info h3{
+        font-size: 16px;
+    }
+    .relax .relax__head h2 {
+        font-size: 30px;
+    }
+    .relax .relax__head p {
+        font-size: 14px;
+    }
+    .relax a{
+        font-size: 14px;
+    }
+    .project__head h2{
+        font-size: 30px;
+    }
+    .project__head p{
+        font-size: 16px;
+    }
+    .project .project__list .project_h3{
+        font-size: 16px;
+    }
+    .project .project__list .project_p{
+        font-size: 14px;
+    }
+    .project .project__list .project__item h3{
+        font-size: 16px;
+    } 
+    .project .project__list .project__item p{
+        font-size: 14px;
+    } 
+    .project .project__list .icon_project_bg{
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+    .project .project__list .icon_project_bg .icon_project1{
+        top: 9px;
+        left: 10px;
+    }    
+    .project .project__list .icon_project_bg .icon_project2{
+        top: 11px;
+        left: 9px;
+    }  
+    .project .project__list .icon_project_bg .icon_project3{
+        top: 10px;
+        left: 14px;
+    } 
+
+    .project .project__list .project__item .project__info{
+        margin-left: 5px;
+    }
+    .project .project__list .project__foot p{
+        font-size: 14px;
+    }
+    .footer_copy{
+        font-size: 12px;
+    }
+    .footer_social{
+        align-items: center;
+    }
+    .icon_social{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 768px){
+    .form,
+    .form input,
+    .form textarea{
+        font-size: 14px;
+    }
+    .form input{
+        width: 40%;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .nav{
+       margin-top: 15px;
+    }
+    .footer_social{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon_social{
+        margin-right: 0;
+    }
+}
+@media (max-width: 580px){
+
+    .preview{
+        width: 60%;
+    }
+    .project .project__list .icon_project_bg{
+        margin-top: 10px;
+        background-size: 70%;
+        background-repeat: no-repeat;
+    }
+    .project .project__list .icon_project_bg .icon_project1{
+        width: 40%;
+        height: 40%;
+        top: 9px;
+        left: 11px;
+    }    
+    .project .project__list .icon_project_bg .icon_project2{
+        width: 40%;
+        height: 40%;
+        top: 11px;
+        left: 11px;
+    }    
+    .project .project__list .icon_project_bg .icon_project3{
+        width: 40%;
+        height: 40%;
+        top: 8px;
+        left: 10px;
+    } 
+}
+@media (max-width: 500px){
+    .form input{
+        width: 90%;
+    }
+    .header a{
+        font-size: 12px;
+    }
+    .nav li:not(:last-child){
+        padding-right: 10px;
+    }
+    .btn__primary{
+        padding: 15px 30px;
+    }
+    .promo__content h2{
+        font-size: 35px;
+    }
+    .project .project__list .icon_project_bg{
+        margin-right: -10px;
+        background-size: 60%;
+        background-repeat: no-repeat;
+    }
+    .project .project__list .icon_project_bg .icon_project1{
+        width: 30%;
+        height: 30%;
+        top: 7px;
+        left: 9px;
+    }    
+    .project .project__list .icon_project_bg .icon_project2{
+        width: 30%;
+        height: 30%;
+        top: 7px;
+        left: 10px;
+    }    
+    .project .project__list .icon_project_bg .icon_project3{
+        width: 30%;
+        height: 30%;
+        top: 5px;
+        left: 8px;
+    } 
+}
+@media (max-width: 450px){
+    .preview{
+        width: 80%;
+    }
+    .project .project__list .icon_project_bg{
+        margin-right: -10px;
+        width: 65px;
+        height: 65px;
+    }
+    .project .project__list .icon_project_bg .icon_project1{
+        top: 5px;
+        left: 8px;
+    }    
+    .project .project__list .icon_project_bg .icon_project2{
+        top: 6px;
+        left: 8px;
+    }    
+    .project .project__list .icon_project_bg .icon_project3{
+        top: 4px;
+        left: 7px;
+    } 
+}
